@@ -1,0 +1,68 @@
+// --------------------------------------------------------
+// PROMO BANNER
+// --------------------------------------------------------
+
+.promo {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	img {
+		 max-width: 100%;
+	    width: 100%;
+	}
+}
+
+.promoLeft, .promoRight {
+	position: relative;
+	width: 50%;
+}
+
+.promoLeft p {
+	@include fontSize(30, 900);
+		span {
+			color: white;
+			@include fontSize(30, 900);
+		}
+}
+
+.plcontent h3 span {
+	@include fontSize(30, 300);
+	letter-spacing: 3px;
+}
+
+.plcontent {
+	@include fontSize(16, 400);
+	width: 45%;
+	color: black;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translateY(-40%);
+}
+.plcontent .red {
+	@include fontSize(11, 400);
+	margin-left: 50px;
+}
+
+.prcontent {
+	@include fontSize(12, 400);
+	width: 50%;
+	line-height: 2;
+	color: white;
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	transform: translateY(-50%);
+}
+
+.prcontent h2 {
+	color: white;
+	font-weight: 300;
+	margin-bottom: 20px;
+	text-align: left;
+	&::after {
+		margin: 0 0 0 3px;
+		border: 1px solid white;
+	}
+}

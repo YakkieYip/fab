@@ -1,0 +1,64 @@
+// --------------------------------------------------------
+// SHOWCASE
+// --------------------------------------------------------
+.featBox {
+	display: flex;
+	padding-bottom: 50px;
+}
+
+.featImg {
+	width: 50%;
+}
+
+.featContent {
+	color: #888;
+	width: 50%;
+	padding: 5% 3% 0;
+	h3{
+		@include fontSize(22, 300);
+		color: black;	
+	}
+	p {
+		margin: 3% 0;
+		@include fontSize(20, 300);
+    	line-height: 1.7;
+	}
+	.salePrice {
+		color: black;
+		@include fontSize(22, 300);
+	}
+	.oldPrice {
+		padding-right: 20px;
+		text-decoration: line-through;
+		@include fontSize(18, 100);
+		color: #888;
+	}
+}
+
+.colorSelector {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 35%;
+	margin: 30px 0;
+	p {
+		margin: 0;
+		@include fontSize(16, 400);
+    	line-height: 1.7;
+	}
+	a {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	}
+	.redCircle {
+		background: $red;
+	}
+	.yellowCircle {
+		background: $yellow;	
+	}
+	.greenCircle {
+		background: $green;
+	}
+}

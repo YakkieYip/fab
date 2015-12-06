@@ -1,0 +1,95 @@
+// --------------------------------------------------------
+// SALES BANNER PROMOTIONS
+// --------------------------------------------------------
+
+// creates space from header section
+.salesAlert {
+	padding: 20px 0;
+}
+
+.salesAlert ul {
+	display: flex;
+	// first to left, and last right, then divides space inbetween. Evenly distributed links.
+	justify-content: space-between;
+	flex-wrap: wrap;
+	// background: grey;
+}
+
+.salesAlert li {
+	margin-right: 10px;
+	// flex: 1 0 calc(33.33% - 20px);
+	// position: relative;
+	position: relative;
+}
+
+.salesAlert li:nth-child(3) {
+	margin-right: 0;
+}
+
+.salesAlert img {
+	max-width: 100%;
+	width: 100%;
+}
+
+.salesAlert p {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+	// translateY refers to the p's height, and takes 50% of that height and moves it upwards.
+}
+
+.salesAlert li:nth-child(1) p {
+	@include fontSize(40, 900);
+	width: 30%;
+	color: white;
+}
+
+.salesAlert li:nth-child(2) p {
+	@include fontSize(35, 900);
+	color: $burntorange;
+	width: 50%;
+	padding: 0 5px;
+}
+
+.salesAlert li:nth-child(3) p {
+	@include fontSize(40, 900);
+	line-height: 1;
+	color: white;
+	width: 50%;
+	padding: 0 5px;
+	left: 0;
+}
+
+.salesAlert span.darkText {
+	color: grey;
+}
+
+.salesAlert span.thinText {
+	@include fontSize(50, 100);
+}
+
+.thin {
+	@include fontSize(60, 100);
+}
+
+.xbig, {
+	color: grey;
+	@include fontSize(50,900);
+}
+
+.big {
+	@include fontSize(20, 600)
+}
+
+.small {
+	color: grey;
+	@include fontSize(20, 300)
+} 
+
+// Sales Alert
+// .box1 {
+// 	width: 360px;
+// 	height: 220px;
+// 	background: green;
+// }

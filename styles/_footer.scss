@@ -1,0 +1,35 @@
+// --------------------------------------------------------
+// FOOTER
+// --------------------------------------------------------
+
+footer {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: #fff;
+	background: $skyblue;
+	.footerNav {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+}
+
+.footerSubNav li {
+	line-height: 1.5; 
+	@include fontSize(12, 300);
+	address {
+		font-style: normal;
+		@include fontSize(12, 300);
+	}
+}
+
+.botBarNav {
+	padding-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	li {
+		margin-right: 10px;
+	}
+}

@@ -1,15 +1,15 @@
-var gulp   = require('gulp'),
-		browserSync = require('browser-sync'),
-		reload = browserSync.reload,
-		autoprefixer = require('gulp-autoprefixer'),
-		concat = require('gulp-concat'),
-		imageMin = require('gulp-imagemin'),
-		minifyCSS = require('gulp-minify-css'),
-		notify = require('gulp-notify'),
-		plumber = require('gulp-plumber'),
-		sass = require('gulp-sass'),
-		sourcemaps = require('gulp-sourcemaps'),
-		uglify = require('gulp-uglify');
+var gulp     = require('gulp'),
+browserSync  = require('browser-sync'),
+reload       = browserSync.reload,
+autoprefixer = require('gulp-autoprefixer'),
+concat       = require('gulp-concat'),
+imageMin     = require('gulp-imagemin'),
+minifyCSS    = require('gulp-minify-css'),
+notify       = require('gulp-notify'),
+plumber      = require('gulp-plumber'),
+sass         = require('gulp-sass'),
+sourcemaps   = require('gulp-sourcemaps'),
+uglify       = require('gulp-uglify');
 
 gulp.task('bs', function() {
 	browserSync.init({

@@ -59,6 +59,7 @@ $purple: #8E24AC;
 @import "location";
 @import "featProducts";
 @import "reviews";
+@import "_news";
 @import "footer";
 
 
@@ -185,43 +186,4 @@ address {
 	text-transform: uppercase;
 }
 
-// --------------------------------------------------------
-// OUR SERVICES SECTION
-// --------------------------------------------------------
-
-.services {
-	background: $skyblue;
-	padding: 25px 0;
-}
-
-.servicesGallery {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	color: white;
-	li {
-		text-align: center;
-		width: 33%;
-		margin: 0 auto;
-		padding: 0 50px;
-	}
-	h5 {
-		margin: 10px 0;
-		@include fontSize(15, 400);
-	}
-	p { 
-		@include fontSize(12, 400);
-		margin: 0 auto;
-		line-height: 2;
-	}
-	
-}
-
-
-// Latest News
-.box6 {
-	width: 360px;
-	height: 300px;
-}
 

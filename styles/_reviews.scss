@@ -1,8 +1,114 @@
 // --------------------------------------------------------
 // REVIEWS
 // --------------------------------------------------------
+.review1 {
+	background: $slimegreen;
+}
+
+.review2 {
+	background: $orange;
+}
+
+.review3 {
+	background: $burntorange;
+}
+
+.review4 {
+	background: $brightpink;
+}
+
+.review5 {
+	background: $lavender;
+}
+
+.review6 {
+	background: $bluepurple;
+}
+
 
 .box5 {
 	width: 360px;
 	height: 390px;
+	.quote {
+		font-style: italic;
+		line-height: 1.5;
+		text-align: center;
+		padding: 30px 35px;
+	}
+	.quotee {
+		// padding-top: 40px;
+		text-align: center;
+	}
+}
+
+.box5 p.quote::after {
+	content: " ";
+   display: block;
+	border-bottom: 1px solid #fff;
+   width: 50px;
+   margin: 20px auto;
+   padding-top: 5%;
+}
+
+
+.reviewsGallery {
+	color: #fff;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	li {
+		width: 31%;
+		margin-bottom: 25px;
+	}
+}
+
+.reviewsGallery .circle {
+	width: 75px;
+	height: 75px;
+	background: $magenta;
+	border-radius: 50%;
+	margin: 15px auto;
+	border: 5px solid $brightpink;
+    // position: absolute;
+    // top: 4%;
+    // right: 4%;
+}
+
+section.discount {
+	background: url(../assets/discount-banner.png) center center no-repeat;
+	padding: 30px;
+	margin: 30px 0;
+	h2 {
+		letter-spacing: 1px;
+		color: #fff;
+		&::after {
+			border-bottom: 1px solid #fff;
+		}
+	}
+	form {
+		text-align: center;
+	}
+	form input[type=submit] {
+		border: none;
+		border-radius: 2px;
+		padding: 10px 25px;
+		box-shadow: 0px 1px 6px 2px rgba(0, 0, 0, 0.2);
+		width: 180px;
+		background: $darkyellow;
+		color: #fff;		
+	}
+}
+
+section.discount form input[type=email] {
+	color: #fff;
+	@include fontSize(14, 400)
+	width: 30%;
+	background: none;
+	padding: 10px 0;
+	margin-right: 20px;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 1px solid white;
 }

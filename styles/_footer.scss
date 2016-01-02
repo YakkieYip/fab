@@ -11,7 +11,9 @@ footer {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
-		justify-content: space-between;
+		&>li {
+			width: 25%;
+		}
 	}
 }
 
@@ -30,6 +32,6 @@ footer {
 	flex-wrap: wrap;
 	justify-content: flex-start;
 	li {
-		margin-right: 10px;
+		margin-right: 39px;
 	}
 }

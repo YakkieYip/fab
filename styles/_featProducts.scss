@@ -24,23 +24,15 @@
 	}
 }
 
-.gallery-cell {
-  width: 66%;
-  height: 200px;
-  margin-right: 10px;
-  background: #8C8;
-  counter-increment: gallery-cell;
-}
-
-/* cell number */
-.gallery-cell:before {
-  display: block;
-  text-align: center;
-  content: counter(gallery-cell);
-  line-height: 200px;
-  font-size: 80px;
-  color: white;
-}
+// Featured Products
+// .box4 {
+// 	display: flex;
+// 	flex-direction: column;
+// 	justify-content: flex-end; 
+// 	width: 260px;
+// 	height: 375px;
+// 	background: pink;
+// }
 
 .products {
 	display: flex;
@@ -80,16 +72,6 @@
 	padding: 10px 15px;
 	color: $gold;
 	background: white;
-}
-
-// Featured Products
-.box4 {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end; 
-	width: 260px;
-	height: 375px;
-	background: pink;
 }
 
 // --------------------------------------------------------

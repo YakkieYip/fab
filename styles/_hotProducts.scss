@@ -92,9 +92,17 @@
 
 // Hot products
 .box3 {
-	width: 360px;
-	height: 420px;
-	background: purple;
+	max-width: 360px;
+	// height: 420px;
+	height: auto;
+	// background: purple;
+
+	img.hotimg {
+		width: 100%;
+		// height: 320px;
+		height: auto;
+		// overflow: hidden;
+	}	
 }
 
 

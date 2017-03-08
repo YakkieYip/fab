@@ -3,26 +3,50 @@
 // --------------------------------------------------------
 .review1 {
 	background: $slimegreen;
+
+	.circle {
+		border: 5px solid #adb543;
+	}
 }
 
 .review2 {
 	background: $orange;
+
+	.circle {
+		border: 5px solid #e2b033;
+	}
 }
 
 .review3 {
 	background: $burntorange;
+
+	.circle {
+		border: 5px solid #ec7738;
+	}
 }
 
 .review4 {
 	background: $brightpink;
+
+	.circle {
+		border: 5px solid #d53b88;
+	}
 }
 
 .review5 {
 	background: $lavender;
+
+	.circle {
+		border: 5px solid #ce93d8;
+	}
 }
 
 .review6 {
 	background: $bluepurple;
+
+	.circle {
+		border: 5px solid #9575cd;
+	}
 }
 
 
@@ -65,15 +89,24 @@
 }
 
 .reviewsGallery .circle {
-	width: 75px;
-	height: 75px;
-	background: $magenta;
+	max-width: 75px;
+	max-height: 75px;
+	// background: $magenta;
+	// background: url(../assets/fabplaceholder.jpg) center center no-repeat;
 	border-radius: 50%;
 	margin: 15px auto;
-	border: 5px solid $brightpink;
+	
     // position: absolute;
     // top: 4%;
     // right: 4%;
+    img {
+    	width: 100%;
+    	    // width: 75px;
+    height: auto;
+    border-radius: 50%;
+    // margin: 15px auto;
+    // border: 5px solid #FF329A;
+    }
 }
 
 section.discount {

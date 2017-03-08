@@ -19,14 +19,13 @@ ul.latestGallery li {
 }
 
 div.latestFilter {
-	// display: flex;
-	// flex-direction: column;
+	width: 100%;
 	color: white;
-	// Figure this one out?
-	// position: relative;
-	top: 70%;
-	left: 15px;
+	bottom: 54px;
+	left: 0;
 	position: absolute;
+	padding: 5px 15px 5px;
+	background: linear-gradient(to bottom,transparent,rgba(0,0,0,.8));
 
 
 
@@ -55,7 +54,7 @@ div.latestPrice {
 	max-width: 260px;
 	// max-height: 320px;
 	height: auto;
-	background: orange;
+	// background: orange;
 	// border: 1px dashed black;
 	
 	img.latestimg {

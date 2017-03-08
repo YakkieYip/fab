@@ -47,14 +47,20 @@
 }
 
 // Featured Products
-// .box4 {
-// 	display: flex;
-// 	flex-direction: column;
-// 	justify-content: flex-end; 
-// 	width: 260px;
-// 	height: 375px;
-// 	background: pink;
-// }
+.box4 {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end; 
+	max-width: 260px;
+	// height: 375px;
+	height: auto;
+	// background: pink;
+
+	img.featuredimg {
+		width: 100%;
+	}
+
+}
 
 .products {
 	display: flex;

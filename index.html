@@ -10,63 +10,60 @@
 	<link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-	<!-- ===================================== HEADER SECTION ===================================== -->
-	<header>
-		<div class="heroImg">
-			<!-- Top Navigation Section -->
-			<div class="topNav">
-				<!-- left side of top nav -->
-				<div class="topL">
-					<div>
-						<i class="fa fa-bars fa-lg"></i>
-					</div>
-					<div>
-						<img src="assets/fab.png" alt="The fab! logo" class="logo">
-					</div>
-				</div><!-- /.topL -->
+	<!-- ========== HEADER SECTION ========== -->
+	<header class="hero">
+		<img src="assets/header.jpg" alt="A woman wearing sunglases in a fashionable outfit with headphones on.">
 
-				<!-- right side of top nav -->
-				<div class="topR">
+		<!-- Top Navigation Section -->
+			<div class="topNav">
+				<div class="topL">
+					<a href="#"><i class="fa fa-bars fa-lg"></i></a>
+					<img src="assets/fab.png" alt="The fab! logo" class="logo">
+				</div> <!-- /.topL -->
+
+				<form class="topR">
+					<input type="search" class="searchInput">
 					<!-- <img src="assets/cart-badge.png" alt="An icon of items in your shopping cart."> -->
 					<i class="fa fa-search fa-lg"></i>
-				</div> <!-- /.topR -->
-			</div> <!-- /.topNav-->
-			
-			<!-- ===================================== MAIN NAVIGATION SECTION ===================================== -->
-			<nav class="mainNav up">
-				<ul>
-					<li><a href="#">Woman</a></li>
-					<li><a href="#">Man</a></li>
-					<li><a href="#">Kids</a></li>
-					<li><a href="#">Accessories</a></li>
-				</ul>
-			</nav>
-			
-			<!-- <img src="assets/header.jpg" alt="A woman wearing sunglases in a fashionable outfit with headphones on."> -->
-			
-			<!-- ===================================== HERO CONTENT SECTION =====================================-->
-			<section class="wrapper">
-				<div class="heroContent clearfix">
-					<h1 class="up">New Autumn Styles</h1>
-					<p>Prefect’s bathroom Trelawney veela squashy armchairs, SPEW: Gamp’s Elemental Law of Transfiguration. Magic Nagini bezoar, Hippogriffs Headless Hunt giant squid petrified.</p>
-					<p>
-						<a href="#" class="btn red">Buy Now</a>
-					</p>
-					<p>
-						<a href="#" class="btn white">View Details</a>
-					</p>
-				</div> <!-- heroContent -->
-			</section> <!-- /.wrapper -->
+				</form> <!-- /.topR -->
 
-			<div class="chevronBtns">
+				<!-- ========== MAIN NAVIGATION SECTION ========== -->
+				<nav class="mainNav up">
+					<ul>
+						<li><a href="#">Woman</a></li>
+						<li><a href="#">Man</a></li>
+						<li><a href="#">Kids</a></li>
+						<li><a href="#">Accessories</a></li>
+					</ul>
+				</nav>
+			</div> <!-- /.topNav-->
+		
+		
+		
+		
+<!-- ========== HERO CONTENT SECTION ========== -->
+		
+			<div class="heroContent">
+				<h1 class="up">New Autumn Styles</h1>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non sunt ea, saepe architecto quo, qui minus alias, consequatur in rerum ipsa nemo minima nostrum! Perferendis dolorem ut nam a voluptatum.</p>
+				
+				<p>
+					<a href="#" class="btn red">Buy Now</a>
+				</p>
+				<p>
+					<a href="#" class="btn white">View Details</a>
+				</p>
+			</div>
+				
+			<!-- <div class="chevronBtns">
 				<i class="fa fa-chevron-left fa-lg"></i>
 				<i class="fa fa-chevron-right fa-lg"></i>
-			</div>
-		</div> <!-- /.heroImage -->
+			</div> -->
 	</header> <!-- /.hero -->
 	
 
-	<!-- ===================================== SALES ALERT SECTION =====================================-->
+	<!-- ========== SALES ALERT SECTION ========== -->
 	<section class="salesAlert up">
 		<ul class="wrapper">
 			<li>
@@ -87,7 +84,7 @@
 	</section> <!-- /.salesAlert -->
 
 
-	<!-- ===================================== LATEST PRODUCTS SECTION =====================================-->
+	<!-- ========== LATEST PRODUCTS SECTION ========== -->
 	<section class="latest">
 		<div class="wrapper">
 			<h2 class="up">Latest Products</h2>
@@ -206,15 +203,15 @@
 	</section> <!-- /.latest -->
 
 
-<!-- ===================================== SECTION PROMO COLLECTION =====================================-->
-	<section class="promo">
+<!-- ========== SECTION PROMO COLLECTION ==========-->
+	<section class="promo" id="promo">
 		<div class="promoLeft">
 			<img src="assets/swimsuit-banner.jpg" alt="A lady wearing sunglasses and a bikini top holding a fashionable hat with both hands on the brim.">
 			<div class="plcontent up">
 				<h3><span>Summer Sales</span></h3>
 				<p>Buy <span>2</span> Get <span>1</span> Free</p>
 				<p>
-					<a href="#" class="btn red">View All Products</a>
+					<a href="#promo" class="btn red">View All Products</a>
 				</p>
 			</div>
 		</div> <!-- sibling first image -->
@@ -228,7 +225,7 @@
 		 </div> <!-- sibling second image -->
 	</section> <!-- /.promo -->
 
-	<!-- ===================================== SECTION HOT =====================================-->
+	<!-- ========== SECTION HOT ========== -->
 	<section class="hot">
 		<div class="wrapper">
 			<h2 class="up">Hot Products</h2>
@@ -377,7 +374,7 @@
 		</div>
 	</section> <!-- /.subscribe -->
 
-	<!-- ===================================== SECTION SHOWCASE =====================================-->
+	<!-- ========== SECTION SHOWCASE ========== -->
 	<section class="showcase">
 		<h2 class="up">Featured Product</h2>
 
@@ -446,7 +443,7 @@
 	</section> <!-- /.location -->
 	
 
-	<!-- Featured Products Gallery -->
+	<!-- ========== Featured Products Gallery ========== -->
 
 	<section class="featured">
 		<h2 class="up">Featured Products</h2>
@@ -574,10 +571,7 @@
 	</section> <!-- /.featured -->
 	
 
-
-
-
-	<!-- Section Services -->
+	<!-- ========== Section Services ========== -->
 	<section class="services">
 		<ul class="servicesGallery wrapper">
 			<li>
@@ -602,7 +596,7 @@
 		
 
 
-	<!-- ===================================== REVIEW SECTION =====================================-->
+	<!-- ========== REVIEW SECTION ========== -->
 	<section class="reviews">
 		<h2 class="up">Reviews</h2>
 
@@ -675,7 +669,7 @@
 		</ul> <!-- /.reviewsGallery -->
 	</section> <!-- /.reviews -->
 
-	<!-- ===================================== DISCOUNT SECTION =====================================-->
+	<!-- ========== DISCOUNT SECTION ========== -->
 	
 	<section class="discount">
 		<h2 class="up">Get 10% Off On Your First Order</h2>
@@ -685,7 +679,7 @@
 		</form>
 	</section>
 
-	<!-- ===================================== NEWS SECTION =====================================-->
+	<!-- ========== NEWS SECTION ========== -->
 	<section class="news">
 		<h2>Latest News</h2>
 		<ul class="newsGallery wrapper">
@@ -722,44 +716,56 @@
 		
 	</section> <!-- /.news -->
 	
-	<!-- ===================================== FOOTER NAVIGATION =====================================-->
+	<!-- ========== FOOTER NAVIGATION ========== -->
 	
-	<footer class="contact">
+	<footer class="contact" id="contact">
 		<ul class="footerNav wrapper">
 			<li>
-				<h5>Features</h5>
+				<h4>Features</h4>
 				<ul class="footerSubNav">
-					<li>About</li>
-					<li>Terms</li>
-					<li>Partners</li>
-					<li>Updates</li>
+					
+					<li>
+						<a href="#contact">About</a>
+					</li>
+
+					<li>
+						<a href="#contact">Terms</a>
+					</li>
+
+					<li>
+						<a href="#contact">Partners</a>
+					</li>
+
+					<li>
+						<a href="#contact">Updates</a>
+					</li>
 				</ul>
 			</li>
 
 			<li>
-				<h5>Categories</h5>
+				<h4>Categories</h4>
 				<ul class="footerSubNav">
-					<li>Men</li>
-					<li>Woman</li>
-					<li>Kids</li>
-					<li>Gadgets</li>
-					<li>Games</li>
+					<li><a href="#contact">Men</a></li>
+					<li><a href="#contact">Woman</a></li>
+					<li><a href="#contact">Kids</a></li>
+					<li><a href="#contact">Gadgets</a></li>
+					<li><a href="#contact">Games</a></li>
 				</ul>
 			</li>
 
 			<li>
-				<h5>News</h5>
+				<h4>News</h4>
 				<ul class="footerSubNav">
-					<li>Autumn Sales</li>
-					<li>Latest Offers</li>
-					<li>New Products</li>
-					<li>About Our Products</li>
-					<li>Summer News</li>
+					<li><a href="#contact">Autumn Sales</a></li>
+					<li><a href="#contact">Latest Offers</a></li>
+					<li><a href="#contact">New Products</a></li>
+					<li><a href="#contact">About Our Products</a></li>
+					<li><a href="#contact">Summer News</a></li>
 				</ul>
 			</li>
 
 			<li>
-				<h5>Features</h5>
+				<h4>Features</h4>
 				<ul class="footerSubNav">
 					<li>
 						<address>
@@ -774,10 +780,10 @@
 		</ul> <!-- /.footerNav -->
 		
 		<ul class="botBarNav wrapper">
-			<li>Conditions</li>
-			<li>Help</li>
-			<li>Privacy</li>
-			<li>Terms</li>
+			<li><a href="#contact">Conditions</a></li>
+			<li><a href="#contact">Help</a></li>
+			<li><a href="#contact">Privacy</a></li>
+			<li><a href="#contact">Terms</a></li>
 		</ul>	
 
 	</footer> <!-- /.contact -->
@@ -787,5 +793,5 @@
 </body>
 </html>
 
-<!-- Credits -->
+<!-- ========== Credits ========== -->
 

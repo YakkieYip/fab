@@ -7,22 +7,36 @@ footer {
 	padding-bottom: 30px;
 	color: #fff;
 	background: $skyblue;
+	
+	a {
+		color: white;
+		transition: color 0.4s ease;
+		
+		&:hover {
+			color: $red;
+			text-decoration: underline;
+		}	
+	}
+	
 	.footerNav {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
 		&>li {
 			width: 25%;
+
+			
 		}
 	}
 }
 
 .footerSubNav li {
 	line-height: 1.5; 
-	@include fontSize(12, 300);
+	@include fontSize(14, 300);
+	
 	address {
 		font-style: normal;
-		@include fontSize(12, 300);
+		@include fontSize(14, 300);
 	}
 }
 

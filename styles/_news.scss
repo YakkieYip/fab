@@ -47,6 +47,11 @@ section.news {
 			display: inline-block;
 			margin: 15px 0 5px;
 			padding: 10px 0;
+
+			&:hover {
+				color: $teal;
+				text-decoration: underline;
+			}
 		}
 	}
 }
